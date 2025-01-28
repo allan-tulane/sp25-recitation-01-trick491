@@ -143,7 +143,8 @@ assuming the list is pre-sorted.
 	For binary, the worst case complexity is the time sorting plus the regular complexity times k -> O(n^2) + O(log(base 2)(n * k).
 
 	For virtually every value of k comparing the two complexities, it requires less work 
-	sorting the list for a binary search. 
+	for a binary search, even considering the overhead from sorting the list, since the time complexity is logarithmic. For smaller datasets, howewver, it may be faster to use
+ 	linear search because there is no need to sort a dataset of 2, for example, beforehand.  
 
 	
 
