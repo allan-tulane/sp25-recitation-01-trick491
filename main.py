@@ -161,8 +161,8 @@ assuming the list is pre-sorted.
 def print_results(results):
 	""" done """
 	print(tabulate.tabulate(results,
-							headers=['n', 'linear', 'binary'],
-							floatfmt=".5f",
-							tablefmt="github"))
+	headers=['n', 'linear', 'binary'],
+	floatfmt=".5f",
+	tablefmt="github"))
 
 print_results(compare_search())
