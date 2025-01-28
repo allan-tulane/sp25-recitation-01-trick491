@@ -142,7 +142,7 @@ assuming the list is pre-sorted.
 
 	For binary, the worst case complexity is the time sorting plus the regular complexity times k -> O(n^2) + O(log(base 2)(n * k).
 
-	For virtually every value of k comparing the two complexities, it is requires less work 
+	For virtually every value of k comparing the two complexities, it requires less work 
 	sorting the list for a binary search. 
 
 	
